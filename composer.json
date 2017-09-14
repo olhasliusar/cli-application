@@ -1,0 +1,14 @@
+{
+    "name": "CLI application",
+    "license": "MIT",
+    "type": "project",
+    "description": "The base cli application.",
+    "keywords": ["cli", "console", "base", "project"],
+
+    "autoload": {
+        "psr-4": {
+            "Console\\": "console/",
+            "App\\": "app/"
+        }
+    }
+}
